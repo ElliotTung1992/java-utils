@@ -3,10 +3,9 @@ package com.github.dongganen.utils.date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.*;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
-public class DateUtils {
+public class DateUtil {
 
     /**
      * localDate -> Date
@@ -89,7 +88,7 @@ public class DateUtils {
      * @param date2
      * @return
      */
-    public static int daysBetweenTwoDate(Date date1, Date date2){
+    public static int diffTwoDate(Date date1, Date date2){
         long time1 = date1.getTime();
         long time2 = date2.getTime();
         int days = 0;
@@ -107,9 +106,9 @@ public class DateUtils {
      * @param strDate2
      * @return
      */
-    public static int daysBetweenTwoDate(String strDate1, String strDate2){
-        Date date1 = DateUtils.transformStringToDate(strDate1, "yyyy-MM-dd");
-        Date date2 = DateUtils.transformStringToDate(strDate2, "yyyy-MM-dd");
-        return DateUtils.daysBetweenTwoDate(date1, date2);
+    public static int diffTwoDate(String strDate1, String strDate2){
+        Date date1 = DateUtil.transformStringToDate(strDate1, "yyyy-MM-dd");
+        Date date2 = DateUtil.transformStringToDate(strDate2, "yyyy-MM-dd");
+        return DateUtil.diffTwoDate(date1, date2);
     }
 }
