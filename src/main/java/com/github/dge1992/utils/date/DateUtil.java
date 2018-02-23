@@ -1,4 +1,4 @@
-package com.github.dongganen.utils.date;
+package com.github.dge1992.utils.date;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

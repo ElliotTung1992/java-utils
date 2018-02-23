@@ -1,4 +1,4 @@
-package com.github.dongganen.utils.fileUpload;
+package com.github.dge1992.utils.fileUpload;
 
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.multipart.MultipartFile;

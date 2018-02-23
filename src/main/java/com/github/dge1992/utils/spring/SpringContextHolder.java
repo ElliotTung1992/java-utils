@@ -1,4 +1,4 @@
-package com.github.dongganen.utils.spring;
+package com.github.dge1992.utils.spring;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
