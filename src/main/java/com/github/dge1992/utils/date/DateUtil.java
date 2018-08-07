@@ -3,8 +3,12 @@ package com.github.dge1992.utils.date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.*;
+import java.time.temporal.TemporalAdjusters;
 import java.util.Date;
 
+/**
+ * 日期工具类
+ */
 public class DateUtil {
 
     /**
@@ -110,5 +114,21 @@ public class DateUtil {
         Date date1 = DateUtil.transformStringToDate(strDate1, "yyyy-MM-dd");
         Date date2 = DateUtil.transformStringToDate(strDate2, "yyyy-MM-dd");
         return DateUtil.diffTwoDate(date1, date2);
+    }
+
+    /**
+     * 获取当前日期的月初日期
+     * @return
+     */
+    public static LocalDate getFirstDayOfMonth(LocalDate localDate){
+        return localDate.with(TemporalAdjusters.firstDayOfMonth());
+    }
+
+    /**
+     * 获取当前日期的月末日期
+     * @return
+     */
+    public static LocalDate getLastDayOfMonth(LocalDate localDate){
+        return localDate.with(TemporalAdjusters.lastDayOfMonth());
     }
 }
