@@ -1,4 +1,4 @@
-package com.github.dge1992.utils;
+package com.github.dge1992.javautils;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

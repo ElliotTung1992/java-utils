@@ -1,4 +1,4 @@
-package com.github.dge1992.utils.fileUpload;
+package com.github.dge1992.javautils.fileUpload;
 
 import java.util.HashMap;
 

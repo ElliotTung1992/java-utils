@@ -1,4 +1,4 @@
-package com.github.dge1992.utils.ajax;
+package com.github.dge1992.javautils.ajax;
 
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.serializer.SerializerFeature;

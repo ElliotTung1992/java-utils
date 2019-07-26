@@ -1,4 +1,4 @@
-package com.github.dge1992.utils;
+package com.github.dge1992.javautils;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

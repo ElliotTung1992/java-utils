@@ -1,4 +1,4 @@
-package com.github.dge1992.utils.ajax;
+package com.github.dge1992.javautils.ajax;
 
 
 public class AjaxResult {
